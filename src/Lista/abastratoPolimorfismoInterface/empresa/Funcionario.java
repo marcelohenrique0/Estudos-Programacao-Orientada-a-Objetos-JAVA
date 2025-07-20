@@ -27,7 +27,7 @@ public class Funcionario {
     public String getNome(){
         return this.nome;
     }
-    public double getsalarioPorHora(){
+    public double getSalarioPorHora(){
         return this.salarioPorHora;
     }
 

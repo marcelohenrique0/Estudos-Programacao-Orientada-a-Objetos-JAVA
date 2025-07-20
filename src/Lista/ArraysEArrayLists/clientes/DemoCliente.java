@@ -18,9 +18,10 @@ public class DemoCliente {
 
             System.out.print("Digite o ID: ");
             id = leitor.nextInt();
+            leitor.nextLine();
             if(id >  0){
                 System.out.print("Digite o nome: ");
-                nome = leitor.next();
+                nome = leitor.nextLine();
                 System.out.print("Digite a idade: ");
                 idade = leitor.nextInt();
                 System.out.print("Digite o telefone: ");
@@ -40,7 +41,7 @@ public class DemoCliente {
             System.out.println("Nenhum cliente foi cadastrado");
         }else{
             for(Cliente todosClientes : clientes ){
-                System.out.println(todosClientes.toString());
+                System.out.println(todosClientes);
             }
             
         }

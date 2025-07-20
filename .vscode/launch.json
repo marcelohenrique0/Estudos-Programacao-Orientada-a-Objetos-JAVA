@@ -1,0 +1,630 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DemoEmpresa",
+            "request": "launch",
+            "mainClass": "Aulas.Abstrato.Empresa.DemoEmpresa",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoControle",
+            "request": "launch",
+            "mainClass": "Aulas.Abstrato.controle.DemoControle",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoDama",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayseArrayLists.dama.DemoDama",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoExtrato",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayseArrayLists.extrato.DemoExtrato",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayseArrayLists.media.Media",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Pascal",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayseArrayLists.pascal.Pascal",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "piSobreSeis",
+            "request": "launch",
+            "mainClass": "Aulas.ArrayseArrayLists.somatorio.piSobreSeis",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoBanco",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.Banco.DemoBanco",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoCaixa",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.CaixaBanco.DemoCaixa",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoCirculo",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.Circulo.DemoCirculo",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.Datas.Principal",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.EventoAcademico.Main",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.Pessoa.Main",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoConversao",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.conversor.DemoConversao",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoRegistroAcademico",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.faculdade.DemoRegistroAcademico",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoIguais",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.iguais.DemoIguais",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoNatal",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.natal.DemoNatal",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoTriangulo",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.triangulo.DemoTriangulo",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoTupla",
+            "request": "launch",
+            "mainClass": "Aulas.CriacaoClass.tupla.DemoTupla",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Divisao",
+            "request": "launch",
+            "mainClass": "Aulas.Execoes.divisao.Divisao",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Prova",
+            "request": "launch",
+            "mainClass": "Aulas.Execoes.prova.Prova",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "BuscaCor",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.arraylist.BuscaCor",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Conjunto",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.conjunto.Conjunto",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Fila",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.fila.Fila",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "ContaPalavras",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.mapa.ContaPalavras",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Pilha",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.pilha.Pilha",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveCores",
+            "request": "launch",
+            "mainClass": "Aulas.Genericas.remocaoCores.RemoveCores",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoAutomovel",
+            "request": "launch",
+            "mainClass": "Aulas.automovel.DemoAutomovel",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoEmpresa(1)",
+            "request": "launch",
+            "mainClass": "Aulas.empresa.DemoEmpresa",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Fatorail",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.Fatorail",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "NumeroPerfeito",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.NumeroPerfeito",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Populacao",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.Populacao",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Programa",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.Programa",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "SomadosCubos",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.SomadosCubos",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "boasVindas",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.boasVindas",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "calculodeDistancia",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.calculodeDistancia",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "data",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.data",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "distanciaDeDoisPontos",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.distanciaDeDoisPontos",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "validaCartao",
+            "request": "launch",
+            "mainClass": "Aulas.introducao.validaCartao",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoUniversidade",
+            "request": "launch",
+            "mainClass": "Aulas.universidade.DemoUniversidade",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Dados",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.Dados.Dados",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoMatrizes",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.Determinante.DemoMatrizes",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemonAgenda",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.agenda.DemonAgenda",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoCliente",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.clientes.DemoCliente",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoProduto",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.produto.DemoProduto",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Lista.Básico.App",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "AreadoQuadrado",
+            "request": "launch",
+            "mainClass": "Lista.Básico.AreadoQuadrado",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "CDU",
+            "request": "launch",
+            "mainClass": "Lista.Básico.CDU",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Cartas",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Cartas",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DiadoMesFevereiro",
+            "request": "launch",
+            "mainClass": "Lista.Básico.DiadoMesFevereiro",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Fahrenheit",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Fahrenheit",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Fatorial",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Fatorial",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Fibonacci",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "GrausRadiantes",
+            "request": "launch",
+            "mainClass": "Lista.Básico.GrausRadiantes",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Loja",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Loja",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "MDC",
+            "request": "launch",
+            "mainClass": "Lista.Básico.MDC",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Media(1)",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Media",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "MegaSena",
+            "request": "launch",
+            "mainClass": "Lista.Básico.MegaSena",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "MenorNumero",
+            "request": "launch",
+            "mainClass": "Lista.Básico.MenorNumero",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "NumeroPerfeito(1)",
+            "request": "launch",
+            "mainClass": "Lista.Básico.NumeroPerfeito",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "PontoCartesiano",
+            "request": "launch",
+            "mainClass": "Lista.Básico.PontoCartesiano",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Potencia",
+            "request": "launch",
+            "mainClass": "Lista.Básico.Potencia",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "VerificarPrimo",
+            "request": "launch",
+            "mainClass": "Lista.Básico.VerificarPrimo",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "intervalo",
+            "request": "launch",
+            "mainClass": "Lista.Básico.intervalo",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoContador",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.ContageDeEventos.DemoContador",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoElevador",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.Elevadores.DemoElevador",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoEstatico",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.Estatico.DemoEstatico",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.Fatura.Main",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoLampada",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.Lampada.DemoLampada",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoNumerosComplexos",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.NumerosComplexos.DemoNumerosComplexos",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoRegistroAcademico(1)",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.RegistroAcademico.DemoRegistroAcademico",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.TimedeFutebol.Main",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoAluno",
+            "request": "launch",
+            "mainClass": "Lista.CriacaoClass.Universidade.DemoAluno",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "TestaEquipamento",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.computador.TestaEquipamento",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoDataHora",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.datahorario.DemoDataHora",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoFuncionario",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.funcionario.DemoFuncionario",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoLivro",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.livro.DemoLivro",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoPessoa",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.pessoa.DemoPessoa",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoLivroBiblioteca",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.biblioteca.DemoLivroBiblioteca",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoDesenho",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.desenhoGeometrico.DemoDesenho",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoFuncionario(1)",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.empresa.DemoFuncionario",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoFiguraGeometrica",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.figuraGeometrica.DemoFiguraGeometrica",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoPaciente",
+            "request": "launch",
+            "mainClass": "Lista.colecao.Consultorio.DemoPaciente",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoMain",
+            "request": "launch",
+            "mainClass": "Lista.colecao.linkedList.DemoMain",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoMain(1)",
+            "request": "launch",
+            "mainClass": "Lista.colecao.mapa.DemoMain",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoMain(2)",
+            "request": "launch",
+            "mainClass": "Lista.colecao.pilha.DemoMain",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DoisNumerosValidos",
+            "request": "launch",
+            "mainClass": "Lista.exececoes.SomaDeDoisNumeros.DoisNumerosValidos",
+            "projectName": "POO-1_833cd30a"
+        },
+        {
+            "type": "java",
+            "name": "DemoMeses",
+            "request": "launch",
+            "mainClass": "Lista.exececoes.meses.DemoMeses",
+            "projectName": "POO-1_833cd30a"
+        }
+    ]
+}

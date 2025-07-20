@@ -28,7 +28,7 @@ public class Conjunto {
         System.out.println(conjunto);
 
         System.out.println("Antes: " + conjunto.headSet("preto"));
-        System.out.println("Antes: " + conjunto.tailSet("preto"));
+        System.out.println("depois: " + conjunto.tailSet("preto"));
 
         System.out.println("Primeiro: " + conjunto.first());
         System.out.println("Primeiro: " + conjunto.last());
