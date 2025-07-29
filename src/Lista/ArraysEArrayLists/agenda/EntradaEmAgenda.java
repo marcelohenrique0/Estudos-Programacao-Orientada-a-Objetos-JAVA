@@ -10,8 +10,7 @@ public class EntradaEmAgenda {
     private int ano;
     private String assunto;
 
-
-    EntradaEmAgenda(String horas, int dia, int mes, int ano, String assunto){
+    EntradaEmAgenda(String horas, int dia, int mes, int ano, String assunto) {
         this.horas = horas;
         this.dia = dia;
         this.mes = mes;
@@ -19,18 +18,13 @@ public class EntradaEmAgenda {
         this.assunto = assunto;
     }
 
-    public String toString(){
-        return "Horas: " + horas + "\n" + "Dia: " + dia + "\n" + "Mes: " + mes + "\n" + "Ano: " + ano + "\n" + "Assunto: " + assunto; 
+    public String toString() {
+        return "Horas: " + horas + "\n" + "Dia: " + dia + "\n" + "Mes: " + mes + "\n" + "Ano: " + ano + "\n"
+                + "Assunto: " + assunto;
     }
 
-    public boolean ehNoDia(int dia, int mes, int ano){
-
-        if(this.dia == dia &&this.mes == mes && this.ano == ano){
-            return true;
-
-        }else{
-            return false;
-        }
+    public boolean ehNoDia(int dia, int mes, int ano) {
+        return this.dia == dia && this.mes == mes && this.ano == ano;
     }
 
 }

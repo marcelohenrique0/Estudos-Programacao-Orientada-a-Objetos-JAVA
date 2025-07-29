@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoMain",
+            "request": "launch",
+            "mainClass": "Lista.colecao.pilha.DemoMain",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoLivroBiblioteca",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.biblioteca.DemoLivroBiblioteca",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoDesenho",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.desenhoGeometrico.DemoDesenho",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoFuncionario",
+            "request": "launch",
+            "mainClass": "Lista.abastratoPolimorfismoInterface.empresa.DemoFuncionario",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoDataHora",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.datahorario.DemoDataHora",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "TestaEquipamento",
+            "request": "launch",
+            "mainClass": "Lista.ReusoDeClasses.computador.TestaEquipamento",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoAgenda",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.agenda.DemoAgenda",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
+            "name": "DemoProduto",
+            "request": "launch",
+            "mainClass": "Lista.ArraysEArrayLists.produto.DemoProduto",
+            "projectName": "Estudos-Programacao-Orientada-a-Objetos-JAVA_806ee694"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

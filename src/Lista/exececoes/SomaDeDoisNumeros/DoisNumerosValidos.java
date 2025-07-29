@@ -10,29 +10,29 @@ public class DoisNumerosValidos {
 
         int numero1 = obterIntValido(leitor);
         int numero2 = obterIntValido(leitor);
-        System.out.println("Logo, A soma do Numero: " + numero1 +" + " + numero2 +" = " + (numero1 + numero2));
+        System.out.println("Logo, A soma do Numero: " + numero1 + " + " + numero2 + " = " + (numero1 + numero2));
         leitor.close();
-        
+
     }
 
-    public static int obterIntValido(Scanner leitor){
+    public static int obterIntValido(Scanner leitor) {
         boolean validar = false;
         int numero = 0;
-        
-        do{
-            
+
+        do {
+
             System.out.print("Digite um numero inteiro: ");
-            try{
+            try {
                 numero = leitor.nextInt();
                 validar = true;
                 leitor.nextLine();
 
-            }catch(InputMismatchException e){
-                 System.out.println("Entrada inválida. Tente novamente.");
+            } catch (InputMismatchException e) {
+                System.out.println("Entrada inválida. Tente novamente.");
                 leitor.nextLine();
-    
+
             }
-        }while(!validar);
+        } while (!validar);
 
         return numero;
     }

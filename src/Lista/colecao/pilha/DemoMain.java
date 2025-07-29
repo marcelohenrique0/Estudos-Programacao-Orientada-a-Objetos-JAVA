@@ -5,43 +5,38 @@ import java.util.Stack;
 public class DemoMain {
 
     public static void main(String[] args) {
-        Stack<Character> pilha = new Stack<>();
-        
+
         String[] parentes = {
-                "(()()()())",   
-                "(((())))",    
-                "(()((())()))", 
-                "((((((())",    
-                "()))",       
-                "(()()(()"      
+                "(()()()())", // Balanceado
+                "(((())))", // Balanceado
+                "(()((())()))", // Balanceado
+                "((((((())", // Não Balanceado
+                "()))", // Não Balanceado
+                "(()()(()" // Não Balanceado
         };
 
-       
         for (String expressao : parentes) {
-            
-            boolean resultadoDaVez = true; 
+            Stack<Character> pilha = new Stack<>();
+            boolean resultadoDaVez = true;
 
             for (char caractereAtual : expressao.toCharArray()) {
                 if (caractereAtual == '(') {
                     pilha.push(caractereAtual);
-                    resultadoDaVez = true;
                 } else if (caractereAtual == ')') {
                     if (pilha.isEmpty()) {
-                        resultadoDaVez = false; 
-                        break; 
+                        resultadoDaVez = false;
+                        break;
                     } else {
                         pilha.pop();
                     }
                 }
-            } 
+            }
 
-           
-            if (resultadoDaVez == true && !pilha.isEmpty()) {
+            if (!pilha.isEmpty()) {
                 resultadoDaVez = false;
             }
 
-            
-            System.out.println("A expressão '" + expressao );
-        } 
+            System.out.println("A expressão '" + expressao + "' está balanceada? " + resultadoDaVez);
+        }
     }
 }

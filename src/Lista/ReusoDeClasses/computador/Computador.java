@@ -5,8 +5,8 @@ public class Computador extends Equipamento {
     private String tamanhoMemoriaRam; 
 
 
-    public Computador(String nome, String numeroSerie, String tipoProcessador, String tamanhoMemoriaRam) {
-        super(nome, numeroSerie); 
+    public Computador(String nome, String fabricante, String tipoProcessador, String tamanhoMemoriaRam) {
+        super(nome, fabricante); 
         this.tipoProcessador = tipoProcessador;
         this.tamanhoMemoriaRam = tamanhoMemoriaRam;
     }

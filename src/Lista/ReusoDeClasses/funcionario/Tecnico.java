@@ -1,9 +1,9 @@
 package Lista.ReusoDeClasses.funcionario;
 
-public class Tecnico extends Assistente{
+public class Tecnico extends Assistente {
     private float bonusSalarial;
-    
-    Tecnico(String nome,float salario, int matricula, float bonuSalarial){
+
+    Tecnico(String nome, float salario, int matricula, float bonuSalarial) {
         super(nome, salario, matricula);
         this.bonusSalarial = bonuSalarial;
     }
@@ -12,13 +12,9 @@ public class Tecnico extends Assistente{
         return (getSalario() + bonusSalarial) * 13;
     }
 
-
-
-
-    public String toString(){
+    public String toString() {
         return super.toString() + "\nBônus Salarial: " + bonusSalarial;
 
     }
-
 
 }

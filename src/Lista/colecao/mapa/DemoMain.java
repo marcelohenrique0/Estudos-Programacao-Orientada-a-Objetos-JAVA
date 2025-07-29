@@ -8,15 +8,15 @@ public class DemoMain {
         String texto = "HELLO THERE";
         TreeMap<Character, Integer> contagemDeLetras = new TreeMap<>();
 
-        for (char letraAtual : texto.toCharArray()) {  
-            if (Character.isLetter(letraAtual)){ //aqui só entra se for letra
+        for (char letraAtual : texto.toCharArray()) {
+            if (Character.isLetter(letraAtual)) { // aqui só entra se for letra
                 if (contagemDeLetras.containsKey(letraAtual)) {
                     int qtd = contagemDeLetras.get(letraAtual);
                     contagemDeLetras.put(letraAtual, qtd + 1);
                 } else {
                     contagemDeLetras.put(letraAtual, 1);
                 }
-                
+
             }
         }
 

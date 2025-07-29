@@ -9,7 +9,6 @@ public class DemoPessoa {
         Politico politico1 = new Politico("Dinarte", "112.233.331-22", "PL");
         Prefeito prefeito1 = new Prefeito("Mariana", "123.444.555-22", "PSOL", "Pau dos Ferros - RN");
 
-
         System.out.println("Dados de pessoa");
 
         System.out.println(pessoa1);
@@ -25,10 +24,6 @@ public class DemoPessoa {
         System.out.println("Dados de um Governadora ");
 
         System.out.println(govrn);
-
-        
-
-
 
     }
 

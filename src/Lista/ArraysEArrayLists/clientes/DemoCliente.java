@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DemoCliente {
-    public static void main(String[] ags){
+    public static void main(String[] ags) {
         ArrayList<Cliente> clientes = new ArrayList<>(); // inicializar o arrayList
 
         Scanner leitor = new Scanner(System.in);
@@ -14,12 +14,12 @@ public class DemoCliente {
         int idade;
         String telefone;
 
-        do{
+        do {
 
             System.out.print("Digite o ID: ");
             id = leitor.nextInt();
             leitor.nextLine();
-            if(id >  0){
+            if (id > 0) {
                 System.out.print("Digite o nome: ");
                 nome = leitor.nextLine();
                 System.out.print("Digite a idade: ");
@@ -30,20 +30,19 @@ public class DemoCliente {
                 Cliente c1 = new Cliente(id, nome, idade, telefone);
                 clientes.add(c1);
                 System.out.println("Cadastrado com sucesso ");
-            }else{
+            } else {
                 System.out.println("Digitou um id negativo e não foi cadastrado com sucesso! ");
             }
 
-        }while(id > 0);
+        } while (id > 0);
 
-
-        if(clientes.isEmpty()){
+        if (clientes.isEmpty()) {
             System.out.println("Nenhum cliente foi cadastrado");
-        }else{
-            for(Cliente todosClientes : clientes ){
+        } else {
+            for (Cliente todosClientes : clientes) {
                 System.out.println(todosClientes);
             }
-            
+
         }
 
         leitor.close();

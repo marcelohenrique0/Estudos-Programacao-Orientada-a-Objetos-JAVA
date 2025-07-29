@@ -3,7 +3,7 @@ package Lista.abastratoPolimorfismoInterface.biblioteca;
 public interface ItemDeBiblioteca {
 
     public int maximoDeDiasParaEmprestimo = 14;
-    
+
     public boolean estaEmprestado();
 
     public void empresta();
@@ -13,6 +13,5 @@ public interface ItemDeBiblioteca {
     public String localizacao();
 
     public String descricao();
-
 
 }

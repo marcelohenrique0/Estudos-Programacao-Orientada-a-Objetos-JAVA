@@ -15,14 +15,14 @@ public class Desenho {
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
-        this.y1 = y2;
+        this.y2 = y2;
 
     }
 
 
     public String apresenta(){
         return "Coordenadas: ( " + x1 + "," + y1 + ")" + "\n" + figura1.descricao() + "\n"
-        +  "Coordenadas: ( " + x1 + "," + y1 + ")" + "\n" +figura2.descricao();
+        +  "Coordenadas: ( " + x2 + "," + y2 + ")" + "\n" +figura2.descricao();
     }
 
 }
